@@ -1663,9 +1663,15 @@ header {
 ;
   grid-template-columns: 1fr 1fr;
   gap: 0 28px;
+  padding-top: 90px;
+
 }
 .submit-btn {
   margin-top: 55px;
+  margin-inline-start: auto;
+}
+.contact-form .submit-btn {
+  margin-top: 25px;
   margin-inline-start: auto;
 }
 .contact-page .default-btn {
